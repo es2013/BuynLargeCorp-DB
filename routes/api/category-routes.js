@@ -40,11 +40,8 @@ router.post('/', (req, res) => {
   // create a new category
   Category.create({
     category_name: req.body.category_name
-  }, {
-    where: {
-      id: req.params.id
-    }
-  }).then(cData => {
+  }
+  ).then(cData => {
     res.json(cData)
   }).catch(err => {
     res.status(500).json(err)
@@ -62,7 +59,7 @@ router.put('/:id', (req, res) => {
       }
     }
   ).then(cData => {
-    res.json(cdata)
+    res.json(cData)
   }).catch(err => {
     res.status(500).json(err)
   })

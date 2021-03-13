@@ -1,5 +1,5 @@
 # Buy N Large Corp Back End
-Challenge: Build a back end for an e-commerce site.
+Challenge: Build a back end for an e-commerce site for fictional store BuyNLarge to store basic categorical data for inventory
 
 ## User Story
 
@@ -10,11 +10,11 @@ SO THAT my company can compete with other e-commerce companies
 ```
 
 ## Installations
-Express
-Node
-Sequelize
-MySQl
-dotenv
+* Express
+* Node
+* Sequelize
+* MySQl
+* dotenv
 
 ## Data base models
 * Product
@@ -39,12 +39,11 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Usage
-
+![Get Products](./img/getproducts.png)
+![Get Categories](./img/getcategories.png)
+![Get Tags](./img/getTags.png)
 
 ## Demo Video
 
-You’ll need to use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables to store sensitive data, like your MySQL username, password, and database name.
-
-Use the `schema.sql` file in the `db` folder to create your database using MySQL shell commands. Use environment variables to store sensitive data, like your MySQL username, password, and database name.
-
+[WATCH DEMO](https://drive.google.com/file/d/1Ga5pM12E1OZs9CeSy40L9hRve6DD0CHy/view)
 
